@@ -1,0 +1,16 @@
+<h1> Calculator </h1>
+
+<form method="post">
+<input type="text" name="firstNumber" />
+<select name="operation">
+<option value="+">+</option>
+<option value="+">+</option>
+<option value="+">+</option>
+<option value="+">+</option>
+</select>
+<input type="text" name="secondNumber" />
+<button type="submit">Calculate</button>
+</form>
+{% if result is defined %}
+<p> Result: </p>
+{% endif %}
